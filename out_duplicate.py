@@ -165,7 +165,7 @@ def find_duplicate_file(fp_arr):
         if name == None or len(name) <= 4:
             continue
         d[name]=d.get(name,list())+[fp]    
-    print("#"*30 + " 算法：正则提取文件名 " + "#"*30)
+    print("#"*30 + " 方法1：番号重复的文件： " + "#"*30)
     for k in d:
         if len(d[k])>1:
             print('*'*120)
@@ -176,7 +176,7 @@ def find_duplicate_file(fp_arr):
                 print(file, "，", "size:{:.1f} GB".format(size_in_gb))
 
 
-    print("#"*30 + " 算法：md5查重 " + "#"*30)
+    print("#"*30 + " 方法2：md5查重的文件： " + "#"*30)
     # 输出第一种方法的重复文件
     for i in ll:
         print('\n'.join(i))
