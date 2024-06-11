@@ -1,4 +1,4 @@
-# OutDuplicateAV 说明
+# FindDuplicateAV 说明
 
 当硬盘里的AV下载过多时，难免会下载到重复的项目。文件是.py格式，自行下载运行环境。
 
